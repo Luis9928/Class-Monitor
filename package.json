@@ -1,0 +1,23 @@
+{
+  "name": "classes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "electron-store": "^5.0.0",
+    "ipc": "0.0.1",
+    "jquery": "^3.4.1",
+    "progressbar.js": "^1.0.1",
+    "remote": "^0.2.6",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "electron": "^7.0.0"
+  }
+}

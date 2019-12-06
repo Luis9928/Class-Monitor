@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script></head>
+<body>
+	<div style="width: 100vw; height: 100vh; background-color: #dcdee0;">
+		<div class="uk-text-center" uk-grid>
+		    <div class="uk-width-1-2">
+				<select id="classes" class="uk-select" name="sel_subj" size="10" multiple="" id="subj_id">
+						<option value="ACC">Accounting</option>
+						<option value="ADED">Adult Education</option>
+						<option value="A S">Aerospace Studies</option>
+						<option value="AAS">African American Studies</option>
+						<option value="AGED">Agricultural Education</option>
+						<option value="AG">Agriculture</option>
+						<option value="ASL">American Sign Language</option>
+						<option value="ANTH">Anthropology</option>
+						<option value="ARAB">Arabic</option>
+						<option value="ART">Art</option>
+						<option value="ARTF">Art Foundation</option>
+						<option value="ARTH">Art History</option>
+						<option value="ARTS">Art Studio</option>
+						<option value="ARTT">Art Theory &amp; Practice</option>
+						<option value="AT">Athletic Training</option>
+						<option value="BILG">Bilingual Education</option>
+						<option value="BIO">Biology</option>
+						<option value="B A">Business Administration</option>
+						<option value="BLAW">Business Law</option>
+						<option value="CTE">Career &amp; Technical Education</option>
+						<option value="CHEM">Chemistry</option>
+						<option value="CHI">Chinese</option>
+						<option value="CE">Civil Engineering</option>
+						<option value="CLS">Clinical Laboratory Science</option>
+						<option value="ARTC">Communication Design</option>
+						<option value="CDIS">Communication Disorders</option>
+						<option value="COMM">Communication Studies</option>
+						<option value="CIS">Computer Information Systems</option>
+						<option value="CS">Computer Science</option>
+						<option value="CIM">Concrete Industry Management</option>
+						<option value="CSM">Construction Science &amp; Mgmt</option>
+						<option value="CA">Consumer Affairs</option>
+						<option value="COUN">Counseling</option>
+						<option value="CJ">Criminal Justice</option>
+						<option value="CI">Curriculum &amp; Instruction</option>
+						<option value="DAN">Dance</option>
+						<option value="DE">Developmental Education</option>
+						<option value="DVST">Diversity Studies</option>
+						<option value="ESLL">ESL Listening Skills</option>
+						<option value="ESLR">ESL Reading Skills</option>
+						<option value="ESLS">ESL Speaking Skills</option>
+						<option value="ESLW">ESL Writing Skills</option>
+						<option value="ECE">Early Childhood Education</option>
+						<option value="ECO">Economics</option>
+						<option value="ED">Education</option>
+						<option value="EDST">Education Student Teaching</option>
+						<option value="EDCL">Educational Leadership</option>
+						<option value="EDP">Educational Psychology</option>
+						<option value="EDTC">Educational Technology</option>
+						<option value="EE">Electrical Engineering</option>
+						<option value="ENGR">Engineering</option>
+						<option value="ENG">English</option>
+						<option value="ESS">Exercise &amp; Sports Science</option>
+						<option value="FCD">Family &amp; Child Development</option>
+						<option value="FCS">Family &amp; Consumer Sciences</option>
+						<option value="FM">Fashion Merchandising</option>
+						<option value="FIN">Finance</option>
+						<option value="FR">French</option>
+						<option value="GS">General Science</option>
+						<option value="GNST">General Studies</option>
+						<option value="GEO">Geography</option>
+						<option value="GEOL">Geology</option>
+						<option value="GER">German</option>
+						<option value="HIM">Health Information Management</option>
+						<option value="HP">Health Professions</option>
+						<option value="HS">Health Sciences</option>
+						<option value="HA">Healthcare Administration</option>
+						<option value="HIST">History</option>
+						<option value="HON">Honors</option>
+						<option value="IE">Industrial Engineering</option>
+						<option value="ID">Interior Design</option>
+						<option value="IS">International Studies</option>
+						<option value="ITAL">Italian</option>
+						<option value="JAPA">Japanese</option>
+						<option value="LATS">Latina/o Studies</option>
+						<option value="LS">Legal Studies</option>
+						<option value="LTCA">Long Term Care Administration</option>
+						<option value="MGT">Management</option>
+						<option value="MFGE">Manufacturing Engineering</option>
+						<option value="MKT">Marketing</option>
+						<option value="MC">Mass Communication</option>
+						<option value="MATH">Mathematics</option>
+						<option value="MSEC">Matrls Sci, Engnr, Comrclztn</option>
+						<option value="MCS">Merchandising &amp; Consumer Stds</option>
+						<option value="MS">Military Science</option>
+						<option value="MU">Music</option>
+						<option value="MUSE">Music Ensemble</option>
+						<option value="MUSP">Music Performance</option>
+						<option value="NCBM">NCBO Mathematics</option>
+						<option value="NCBR">NCBO Reading</option>
+						<option value="NHT">Nature &amp; Heritage Tourism</option>
+						<option value="NURS">Nursing</option>
+						<option value="NUTR">Nutrition &amp; Foods</option>
+						<option value="OCED">Occupational Education</option>
+						<option value="PHIL">Philosophy</option>
+						<option value="PFW">Physical Fitness &amp; Wellness</option>
+						<option value="PT">Physical Therapy</option>
+						<option value="PHYS">Physics</option>
+						<option value="POSI">Political Science (POSI)</option>
+						<option value="PS">Political Science (PS)</option>
+						<option value="PSY">Psychology</option>
+						<option value="PA">Public Administration</option>
+						<option value="PH">Public Health</option>
+						<option value="QMST">Quantitative Methods &amp; Stats</option>
+						<option value="RTT">Radiation Therapy</option>
+						<option value="RDG">Reading</option>
+						<option value="REC">Recreation</option>
+						<option value="REL">Religion</option>
+						<option value="RC">Respiratory Care</option>
+						<option value="RUSS">Russian</option>
+						<option value="SPSY">School Psychology</option>
+						<option value="SOWK">Social Work</option>
+						<option value="SOCI">Sociology</option>
+						<option value="SPAN">Spanish</option>
+						<option value="SPED">Special Education</option>
+						<option value="SAHE">Student Affairs in Higher Ed</option>
+						<option value="SUST">Sustainability Studies</option>
+						<option value="TECH">Technology</option>
+						<option value="GC">The Graduate College</option>
+						<option value="TH">Theatre</option>
+						<option value="US">University Seminar</option>
+						<option value="WS">Women's Studies</option>
+					</select>
+				</div>
+
+			    <div class="uk-width-1-2">
+	        		<input id="courseNumber" class="uk-input" type="text" placeholder="Course Number(Not CRN)" style="width: 70%;">
+	        		<input id="sectionNumber" class="uk-input" type="text" placeholder="Section Number" style="width: 70%;">
+				    <div class="uk-form-controls uk-form-controls-text">
+				        <label><input class="uk-radio" type="radio" name="radio1" id="waitlistSeats">Waitlist Seats</label><br>
+				        <label><input class="uk-radio" type="radio" name="radio1" id="classSeats">Class Seats</label>
+				    </div>
+	        		<div style="padding-top: 25%;">
+		        		<button style="background-color: #fffdfc;" id="saveCourse" class="uk-button uk-button-default">Add course</button>
+	        		</div>
+
+	    		</div>
+
+	    		<div class="uk-width-1-1" style="padding-left: 25%; padding-right: 25%;">
+	        		<input id="webHookField" class="uk-input" type="text" placeholder="Webhook" style="width: 75vw;">
+	        		<button  style="background-color: #fffdfc;" id="saveWebhook" class="uk-button uk-button-default">Save</button>
+	        		<button  style="background-color: #fffdfc;" id="testHook" class="uk-button uk-button-default">Test Hook</button>
+	    		</div>
+
+
+
+	    		<div class="uk-width-1-1" style="padding-left: 25%; padding-right: 25%;">
+	        		<button  style="background-color: #fffdfc;" id="monitor" class="uk-button uk-button-default">Start</button>
+	    		</div>
+
+			</div>
+		</div>
+		<script>require('./search.js')</script>\
+</body>
+</html>
